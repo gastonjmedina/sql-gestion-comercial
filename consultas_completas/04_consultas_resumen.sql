@@ -122,13 +122,6 @@ ORDER BY unidades DESC;
 
 --15)
 
-SELECT SUM(dp.cantidad * dp.precio_unidad) AS base_imponible,
-       ((SUM(dp.cantidad * dp.precio_unidad) * 21) / 100) AS IVA,
-	   SUM(dp.cantidad * dp.precio_unidad) + ((SUM(dp.cantidad * dp.precio_unidad) * 21) / 100) AS total_facturacion
-FROM detalle_pedido dp;
-
---OTRA FORMA SIN REPETIR TANTO
-
 SELECT 
   dp.codigo_producto,
   SUM(dp.cantidad * dp.precio_unidad) AS base_imponible,
@@ -173,7 +166,7 @@ HAVING SUM(dp.cantidad * dp.precio_unidad) > 3000;
 
 --19)
 
-SELECT YEAR(fecha_pago) AS año,
+SELECT YEAR(fecha_pago) AS aÃ±o,
        SUM(total) AS total
 FROM pago
 GROUP BY YEAR(fecha_pago);
