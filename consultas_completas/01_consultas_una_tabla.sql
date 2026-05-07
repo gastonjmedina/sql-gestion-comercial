@@ -15,7 +15,7 @@ FROM oficina;
 SELECT ciudad,
        telefono
 FROM oficina
-WHERE pais = 'España';
+WHERE pais = 'EspaÃ±a';
 
 --3)
 
@@ -59,7 +59,7 @@ SELECT DISTINCT codigo_cliente
 FROM pago
 WHERE YEAR(fecha_pago) = 2008;
 
--- Sin usar "YEAR"
+-- Sin utilizar "YEAR"
 
 SELECT DISTINCT codigo_cliente
 FROM pago
