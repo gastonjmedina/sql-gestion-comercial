@@ -40,14 +40,6 @@ El repositorio incluye ejercicios relacionados con:
 - Funciones de agregación
 - Consultas variadas
 
----
-
-## Ejemplos básicos de consultas
-
-- Productos más vendidos y total de unidades comercializadas
-- Pedidos entregados fuera de fecha
-- Facturación total agrupada por producto
-
 --- 
 
 ## Modelo Entidad-Relación
@@ -71,6 +63,14 @@ La carpeta `consultas_completas` contiene aproximadamente 85 consultas SQL organ
 Estas consultas corresponden a la totalidad de ejercicios disponibles para esta base de datos en la fuente original del proyecto.
 
 A partir de esta colección se realizó una selección de consultas representativas incluidas en el archivo `consultas_destacadas.sql`.
+
+---
+
+## Ejemplos básicos de consultas
+
+- Productos más vendidos y total de unidades comercializadas
+- Pedidos entregados fuera de fecha
+- Facturación total agrupada por producto
 
 ---
 
