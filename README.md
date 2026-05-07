@@ -60,6 +60,8 @@ El repositorio incluye ejercicios relacionados con:
 
 El archivo `consultas_destacadas.sql` contiene una selección de aproximadamente 20 consultas representativas del proyecto.
 
+Cada consulta incluye su respectivo enunciado para facilitar la comprensión del ejercicio planteado y la lógica aplicada en su resolución.
+
 ---
 
 ## Consultas completas
