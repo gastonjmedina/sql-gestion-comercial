@@ -42,7 +42,7 @@ El repositorio incluye ejercicios relacionados con:
 
 ---
 
-## Ejemplos básicos de consultas realizadas
+## Ejemplos básicos de consultas
 
 - Productos más vendidos y total de unidades comercializadas
 - Pedidos entregados fuera de fecha
