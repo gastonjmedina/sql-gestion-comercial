@@ -1,6 +1,6 @@
 
 
--- 1.4.6 CONSULTAS MULTITABLA (COMPOSICIÓN EXTERNA)
+-- 1.4.6 CONSULTAS MULTITABLA (COMPOSICIÃ“N EXTERNA)
 
 
 
@@ -52,7 +52,7 @@ FROM empleado e
 LEFT JOIN cliente c ON c.codigo_empleado_rep_ventas = e.codigo_empleado
 WHERE c.codigo_cliente IS NULL;
 
---OTRA FORMA (RIGHT JOIN)
+-- Utilizando RIGHT JOIN
 
 SELECT e.nombre, 
        c.codigo_cliente
