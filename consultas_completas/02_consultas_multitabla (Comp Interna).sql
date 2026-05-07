@@ -1,6 +1,6 @@
 
 
---1.4.5 CONSULTAS MULTITABLA (COMPOSICIÓN INTERNA)
+--1.4.5 CONSULTAS MULTITABLA (COMPOSICIÃ“N INTERNA)
 
 
 
@@ -12,7 +12,7 @@ SELECT c.nombre_cliente,
 FROM cliente c, empleado e
 WHERE c.codigo_empleado_rep_ventas = e.codigo_jefe;
 
--- OTRA FORMA
+-- Utilizando INNER JOIN
 
 SELECT c.nombre_cliente, 
        e.nombre, 
@@ -31,7 +31,7 @@ FROM cliente c,
 WHERE p.codigo_cliente = c.codigo_cliente 
   AND e.codigo_empleado = c.codigo_empleado_rep_ventas;
 
--- OTRA FORMA
+-- Utilizando INNER JOIN
 
 SELECT c.nombre_cliente, 
        e.nombre
@@ -52,7 +52,7 @@ WHERE c.codigo_empleado_rep_ventas = e.codigo_empleado
 	FROM pago p
 );
 
--- OTRA FORMA
+-- Utilizando INNER JOIN
 
 SELECT c.nombre_cliente, 
        e.nombre
@@ -79,7 +79,7 @@ WHERE EXISTS (
 	WHERE c.codigo_cliente = p.codigo_cliente
 );
 
--- OTRA FORMA
+-- Utilizando INNER JOIN
 
 SELECT DISTINCT c.nombre_cliente, 
                 e.nombre, 
