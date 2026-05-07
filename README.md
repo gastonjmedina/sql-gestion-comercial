@@ -65,6 +65,7 @@ El archivo `consultas_destacadas.sql` contiene una selección de aproximadamente
 ## Consultas completas
 
 La carpeta `consultas_completas` contiene aproximadamente 85 consultas SQL organizadas por temática y nivel de complejidad. 
+
 Estas consultas corresponden a la totalidad de ejercicios disponibles para esta base de datos en la fuente original del proyecto.
 
 A partir de esta colección se realizó una selección de consultas representativas incluidas en el archivo `consultas_destacadas.sql`.
