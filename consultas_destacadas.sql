@@ -1,6 +1,3 @@
-﻿
-
--- CONSULTAS IMPORTANTES PARA GITHUB
 
 
 -- 1.4.4 Consultas sobre una tabla
