@@ -2,7 +2,7 @@
 
 Repositorio orientado a la práctica y resolución de consultas SQL sobre una base de datos relacional de gestión comercial.
 
-Las consultas hechas permiten obtener información relacionada con ventas, facturación, clientes, productos, pagos, stock y relaciones entre entidades de la base de datos.
+Las consultas desarrolladas permiten obtener información relacionada con ventas, facturación, clientes, productos, pagos, stock y relaciones entre entidades de la base de datos.
 
 El proyecto fue desarrollado utilizando SQL Server Management Studio (SSMS) e incluye consultas de distintos niveles de complejidad, abarcando desde operaciones básicas hasta subconsultas y consultas analíticas.
 
